@@ -11,7 +11,7 @@ driver:
         unhealthy_threshold: 3
         healthy_threshold: 2
     metadata:
-        VOLUME_STACK_IMAGE: rancher/longhorn:v0.1.0-rc2
+        VOLUME_STACK_IMAGE: rancher/longhorn:v0.1.0-rc3
 
 storagepool:
     scale: 1
