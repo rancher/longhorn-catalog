@@ -3,6 +3,7 @@ driver:
     io.rancher.container.create_agent: 'true'
     io.rancher.scheduler.global: 'true'
     io.rancher.container.agent.role: 'environment'
+    io.rancher.container.system: Longhorn
   privileged: true
   pid: host
   volumes:
@@ -22,6 +23,7 @@ driver:
 storagepool:
   labels:
     io.rancher.container.create_agent: 'true'
+    io.rancher.container.system: Longhorn
   image: rancher/longhorn:v0.1.0
   command:
     - launch-driver
