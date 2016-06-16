@@ -1,6 +1,6 @@
 .catalog:
     name: "Longhorn"
-    version: "v0.1.0"
+    version: "v0.2.0"
     description: "Rancher Block Storage"
 driver:
     health_check:
